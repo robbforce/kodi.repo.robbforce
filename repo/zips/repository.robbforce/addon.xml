@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.robbforce" name="RobbForce's Repository" version="0.2.0" provider-name="robbforce">
+    <extension point="xbmc.addon.repository" name="RobbForce's Repository">
+        <dir minversion="18.0.0">
+            <info compressed="false">https://raw.githubusercontent.com/robbforce/kodi.repo.robbforce/main/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/robbforce/kodi.repo.robbforce/main/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/robbforce/kodi.repo.robbforce/main/repo/zips/</datadir>
+        </dir>
+        <dir minversion="19.0.0">
+            <info compressed="false">https://raw.githubusercontent.com/robbforce/kodi.repo.robbforce/main/matrix/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/robbforce/kodi.repo.robbforce/main/matrix/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/robbforce/kodi.repo.robbforce/main/matrix/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>RobbForce's Repository</summary>
+        <description>A repo to host a couple of launch scripts for use in Kodi.</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
