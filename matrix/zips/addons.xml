@@ -35,4 +35,40 @@
       <logo />
     </assets>
   </extension>
+</addon><addon id="script.steam.yasl" name="YASL" version="0.1.0" provider-name="teeedubb, hoksilato2, robbforce">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>executable game</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Launches Steam from within Kodi.</summary>
+    <description lang="en_GB">Steam is a video game digital distribution service and storefront. This add-on supports launching Steam in Big Picture mode, command-line arguments, custom, pre and post scripts, and other options.</description>
+    <summary lang="fr_FR">Lance Steam depuis Kodi.</summary>
+    <description lang="fr_FR" />
+    <summary lang="pt_BR">Lança Steam de dentro do Kodi.</summary>
+    <description lang="pt_BR" />
+    <platform>windx</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <source>https://https://github.com/robbforce/script.steam.yasl</source>
+    <website>https://github.com/robbforce/script.steam.yasl/blob/master/README.md</website>
+    <forum />
+    <email />
+    <news />
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+      <screenshot>resources/steam-screenshots/screenshot1.jpg</screenshot>
+      <screenshot>resources/steam-screenshots/screenshot2.jpg</screenshot>
+      <screenshot>resources/steam-screenshots/screenshot3.jpg</screenshot>
+      <screenshot>resources/steam-screenshots/screenshot4.jpg</screenshot>
+      <screenshot>resources/addon-screenshots/add-on_selected.jpg</screenshot>
+      <screenshot>resources/addon-screenshots/add-on_information.jpg</screenshot>
+      <screenshot>resources/addon-screenshots/add-on_settings_01.jpg</screenshot>
+      <screenshot>resources/addon-screenshots/add-on_settings_02.jpg</screenshot>
+      <banner />
+      <logo />
+    </assets>
+  </extension>
 </addon></addons>

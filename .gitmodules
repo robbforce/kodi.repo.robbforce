@@ -1,3 +1,6 @@
 [submodule "matrix/script.playnite.launcher"]
 	path = matrix/script.playnite.launcher
 	url = https://github.com/robbforce/script.playnite.launcher.git
+[submodule "matrix/script.steam.yasl"]
+	path = matrix/script.steam.yasl
+	url = https://github.com/robbforce/script.steam.yasl.git
